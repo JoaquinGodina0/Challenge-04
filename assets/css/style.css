@@ -1,0 +1,96 @@
+  body {
+    font-family: "Trebuchet MS", serif;
+  }
+  .main-screen {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+  }
+
+  p {
+    font-size: 130%;
+  }
+  
+  h1{
+    font-size: 200%;
+  }
+
+  .hide {
+    display: none;
+  }
+  
+  .start {
+    text-align: center;
+  }
+  
+  .scores-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  .scores{
+    text-align: center;
+  }
+
+  .answerWorC {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: gray;
+    border-top: 2px solid rgb(201, 193, 193);
+  }
+
+  .timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.1s;
+  }
+  
+  a:hover {
+    color: #70707a;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 180%;
+    background-color: rgb(90, 0, 173);
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+    transition: background-color 0.1s;
+  }
+  
+  button:hover {
+    background-color: silver;
+  }
+  
+  .choices button {
+    display: block;
+  }
+
+  input[type="text"] {
+    font-size: 100%;
+  }
+  
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+    background-color: aquamarine;
+  }
+  
+  ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+  }
